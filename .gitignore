@@ -1,0 +1,48 @@
+.tool-versions
+storage/*
+
+# Binaries
+/bin/
+/bin/*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Go files
+go.sum
+
+# Local development files
+*.local
+.env
+
+# Build output
+*.exe
+*.out
+*.test
+
+# Dependency directories
+vendor/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test artifacts
+*.coverprofile
+*.testoutput
+
+# Protobuf generated files (если они не должны быть в репозитории)
+# fileservice.pb.go
+# fileservice_grpc.pb.go
+
+# Local test files
+test.jpg
+*.jpg
